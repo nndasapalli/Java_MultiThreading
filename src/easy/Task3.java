@@ -14,8 +14,8 @@ public class Task3 {
         }
     }
     public static void main(String[] args) {
-        Thread t1 = new Thread(new MyThread());
-        Thread t2 = new Thread(new MyThread());
+        Thread t1 = new Thread(new Task3.MyThread());
+        Thread t2 = new Thread(new Task3.MyThread());
 
         t1.setName("MyThread-1");
         t2.setName("MyThread-2");
