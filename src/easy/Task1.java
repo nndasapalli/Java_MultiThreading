@@ -6,7 +6,22 @@ package easy;
  * then start it from main().
  **/
 public class Task1 {
+
+    static class CounterThread extends Thread{
+
+        @Override
+        public void run(){
+            for(int i = 1 ; i <= 5 ; i++){
+                System.out.print(i + " ");
+            }
+            System.out.println();
+        }
+    }
+
     public static void main(String[] args) {
         // Write your code here
+        CounterThread counterThread = new CounterThread();
+        counterThread.start();
+
     }
 }
