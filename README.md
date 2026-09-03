@@ -8,7 +8,7 @@ A collection of Java multithreading & concurrency practice exercises, organized 
 - `src/medium` — 10 tasks (ExecutorService, Callable/Future, ReentrantLock, CountDownLatch, CyclicBarrier, BlockingQueue, AtomicInteger, ThreadLocal, scheduling)
 - `src/advanced` — 11 tasks (deadlock avoidance, ReadWriteLock, Semaphore, CompletableFuture, ForkJoinPool, custom ThreadPoolExecutor, multi-producer/consumer, LRU cache, Exchanger, Phaser, custom spinlock)
 
-Each `TaskN.java` file contains a short problem description in a Javadoc comment, sample setup, and a worked solution below the `// Write your code here` marker.
+Each `TaskN.java` file contains a short problem description in a Javadoc comment, any given setup, and a `// Write your code here` placeholder to fill in with your own solution.
 
 ## Running
 

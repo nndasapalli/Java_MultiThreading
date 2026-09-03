@@ -8,13 +8,5 @@ package easy;
 public class Task3 {
     public static void main(String[] args) {
         // Write your code here
-        Thread thread = new Thread(() -> {
-            Thread current = Thread.currentThread();
-            System.out.println("name : " + current.getName());
-            System.out.println("priority : " + current.getPriority());
-        });
-        thread.setName("worker-thread");
-        thread.setPriority(Thread.MAX_PRIORITY);
-        thread.start();
     }
 }

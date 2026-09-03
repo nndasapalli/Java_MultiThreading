@@ -10,16 +10,5 @@ public class Task5 {
 
     public static void main(String[] args) throws InterruptedException {
         // Write your code here
-        Thread worker = new Thread(() -> {
-            try {
-                Thread.sleep(300);
-            } catch (InterruptedException e) {
-                Thread.currentThread().interrupt();
-            }
-            result = 42;
-        });
-        worker.start();
-        worker.join();
-        System.out.println("result : " + result);
     }
 }
